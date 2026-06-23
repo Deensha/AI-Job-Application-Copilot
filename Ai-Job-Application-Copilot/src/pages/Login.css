@@ -1,0 +1,52 @@
+.main{
+    min-height: 100vh;
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overall1{
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.heading{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.subheading{
+    color: black;
+    margin-bottom: 30px;
+}
+
+.Email{
+    margin-bottom: 25px;
+}
+
+.Password{
+    margin-bottom: 25px;
+}
+
+.overall2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.overall3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.noaccount{
+    margin: 0;
+}
