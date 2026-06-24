@@ -21,7 +21,7 @@ function Atsanalyser(){
     formData.append("jd",textarea);
    
 
-    fetch("http://127.0.0.1:5000/atsanalyser",{
+    fetch("https://ai-job-application-copilot-1-m315.onrender.com/atsanalyser",{
         method:"POST",
         body:formData
     })

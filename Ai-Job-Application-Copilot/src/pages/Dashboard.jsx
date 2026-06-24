@@ -25,7 +25,7 @@ const [jobCount, setJobCount] = useState(0);
 useEffect(() => {
   if (!userId) return;
 
-  fetch(`http://localhost:5000/jobtracker/${userId}`)
+  fetch(`https://ai-job-application-copilot-1-m315.onrender.com/jobtracker/${userId}`)
     .then(res => res.json())
     .then(data => {
       setJobCount(data.length);

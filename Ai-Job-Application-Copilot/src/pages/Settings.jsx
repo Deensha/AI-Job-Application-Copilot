@@ -12,7 +12,7 @@ function Settings() {
 
     useEffect(() => {
 
-        fetch(`http://127.0.0.1:5000/user/${userId}`)
+        fetch(`https://ai-job-application-copilot-1-m315.onrender.com/user/${userId}`)
             .then((res) => res.json())
             .then((data) => {
 
@@ -29,7 +29,7 @@ function Settings() {
 
     function updateProfile() {
 
-        fetch(`http://127.0.0.1:5000/update-user/${userId}`, {
+        fetch(`https://ai-job-application-copilot-1-m315.onrender.com/update-user/${userId}`, {
             method: "PUT",
 
             headers: {

@@ -13,7 +13,7 @@ function Login() {
     const navigate=useNavigate()
    const handlelogin = async () => {
   try {
-    const res = await axios.post("http://127.0.0.1:5000/login", {
+    const res = await axios.post("https://ai-job-application-copilot-1-m315.onrender.com/login", {
       email,
       password
     });

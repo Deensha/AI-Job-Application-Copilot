@@ -8,7 +8,7 @@ function RecentActivity({ userId }) {
 
     console.log("Fetching activities for:", userId);
 
-    fetch(`http://localhost:5000/activities/${Number(userId)}`)
+    fetch(`https://ai-job-application-copilot-1-m315.onrender.com/activities/${Number(userId)}`)
       .then(res => res.json())
       .then(data => {
         console.log("ACTIVITIES RESPONSE:", data);

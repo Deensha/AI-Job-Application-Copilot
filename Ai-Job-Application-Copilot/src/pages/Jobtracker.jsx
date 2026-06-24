@@ -44,7 +44,7 @@ function Jobtracker() {
       return;
     }
 
-    fetch("http://localhost:5000/jobtracker", {
+    fetch("https://ai-job-application-copilot-1-m315.onrender.com/jobtracker", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -82,7 +82,7 @@ function Jobtracker() {
       return;
     }
 
-    fetch(`http://localhost:5000/jobtracker/${userId}`)
+    fetch(`https://ai-job-application-copilot-1-m315.onrender.com/jobtracker/${userId}`)
       .then((res) => res.json())
       .then((data) => {
         console.log("Application:",data)

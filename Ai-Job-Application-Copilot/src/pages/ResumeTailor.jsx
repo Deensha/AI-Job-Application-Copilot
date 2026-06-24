@@ -18,7 +18,7 @@ function Resumetailor(){
     formData.append("resume",resume);
     formData.append("jd",jd);
 
-    fetch("http://127.0.0.1:5000/resumetailor",{
+    fetch("https://ai-job-application-copilot-1-m315.onrender.com/resumetailor",{
 
          method:"POST",
         body:formData
